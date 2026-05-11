@@ -118,7 +118,7 @@ export default {
       return corsResponse({
         success: false,
         message: 'Could not send email. Please try again or contact us directly.',
-      }, 500, origin);
+      }, 501, origin);
     }
   }
 };
