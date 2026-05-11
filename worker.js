@@ -7,8 +7,8 @@
  * CONFIG — edit these before deploying
  */
 const CONFIG = {
-  MAIL_TO:       'info@varadgloballogistics.com',   // ← Enquiries arrive HERE
-  MAIL_FROM:     'noreply@varadgloballogistics.com', // ← Must be from your verified domain
+  MAIL_TO:       'waykarpranjal@gmail.com',   // ← Enquiries arrive HERE
+  MAIL_FROM:     'onboarding@resend.dev', // ← Must be from your verified domain
   MAIL_FROM_NAME:'Varad Global Logistics',
   SITE_NAME:     'Varad Global Logistics',
   PHONE:         '+91 88797 74320',
