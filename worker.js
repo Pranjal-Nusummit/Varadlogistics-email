@@ -75,7 +75,7 @@ export default {
     // ── Check API key ─────────────────────────────────────────────────────────
     const apiKey = env.RESEND_API_KEY;
     if (!apiKey) {
-      return corsResponse({ success: false, message: 'Server configuration error.' }, 500, origin);
+      return corsResponse({ success: false, message: 'Server configuration error.' }, 501, origin);
     }
 
     const submittedAt = new Date().toLocaleString('en-IN', {
