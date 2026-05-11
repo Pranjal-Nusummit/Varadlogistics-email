@@ -14,7 +14,7 @@ const CONFIG = {
   PHONE:         '+91 88797 74320',
   WHATSAPP:      'https://wa.me/918879774320',
   ALLOWED_ORIGINS: [
-    'https://varadgloballogistics.com',
+    'https://varadlogistics-1.waykarpranjal.workers.dev',
     'https://www.varadgloballogistics.com',
     // Add your .pages.dev URL below while testing:
     // 'https://varad-global.pages.dev',
