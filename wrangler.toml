@@ -1,0 +1,20 @@
+name = "varad-enquiry-worker"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Worker will be available at:
+# https://varad-enquiry-worker.YOUR_SUBDOMAIN.workers.dev
+# Or bind it to a custom route below:
+
+# Uncomment to bind to your domain:
+# [[routes]]
+# pattern = "varadgloballogistics.com/api/enquiry"
+# zone_name = "varadgloballogistics.com"
+
+# Environment variables (non-secret)
+# [vars]
+# ENVIRONMENT = "production"
+
+# RESEND_API_KEY must be added as a secret — never put it here.
+# Run this command after deploying:
+#   npx wrangler secret put RESEND_API_KEY
