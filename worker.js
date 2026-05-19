@@ -17,6 +17,7 @@ const CONFIG = {
     'https://varadgloballogistics.com',
     'https://www.varadgloballogistics.com',
 'https://varadlogistics-1.waykarpranjal.workers.dev',
+    'https://varadlogistics-website.varadcargoexpress.workers.dev/'
     // Add your .pages.dev URL below while testing:
     // 'https://varad-global.pages.dev',
   ],
